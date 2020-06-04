@@ -1,13 +1,102 @@
 @import "~normalize.css";
 
 @import "_variables";
-@import "modules/hello.scss";
+@import "modules/logo.scss";
+@import "modules/navigation.scss";
+@import "modules/media.scss";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
 body {
-  background: $wtf;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   min-height: 100vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-attachment: fixed;
+  background-size: cover;
+  background: rgb(245, 242, 247);
+  background: linear-gradient(
+    70deg,
+    rgba(245, 242, 247, 1) 23%,
+    rgba(217, 206, 223, 1) 53%,
+    rgba(211, 226, 230, 1) 89%
+  );
 }
+
+a {
+  color: rgb(129, 76, 103);
+  text-decoration: none;
+}
+
+.header {
+  background: #fefefe;
+  min-height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.main {
+  max-width: 1000px;
+  margin: 60px auto 0;
+  &__header {
+    color: rgb(110, 90, 124);
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+}
+
+.main-section {
+  background: #fefefe;
+  box-sizing: border-box;
+  padding: 2% 3%;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: justify;
+}
+
+.about-section__picture {
+  float: left;
+  margin-right: 20px;
+}
+
+.foodie-section__picture {
+  float: left;
+  margin-right: 20px;
+  display: block;
+  max-width: 100%;
+}
+
+.gratitude-section__picture {
+  float: left;
+  margin-right: 20px;
+}
+
+.travelling-section__picture {
+  float: left;
+  margin-right: 20px;
+}
+
+.learning-section__picture {
+  float: left;
+  margin-right: 20px;
+}
+
+.footer {
+  color: rgb(75, 43, 75);
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 2%;
+}
+
+

@@ -1,0 +1,85 @@
+@media (min-width: 768px) {
+    .navigation {
+      &__box {
+        background: #fefefe;
+        box-sizing: border-box;
+        display: inline-block;
+        padding: 5px 1%;
+        width: 100%;
+        min-height: 30px;
+        text-align: center;
+      }
+      &__box--links {
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 98%;
+        justify-content: center;
+      }
+      &--link {
+        background-color: rgba(207, 207, 207, 0.151);
+        border-style: dashed;
+        border-color: black;
+        padding: 5px 12px;
+        margin: 3px 5px;
+      }
+    }
+  
+    .hamburger {
+      display: none;
+    }
+  
+    .logo {
+      &__box {
+        background: #fefefe;
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 1% 8%;
+        border-style: dashed;
+        margin-top: 2%;
+        margin-bottom: 1.5%;
+        margin-left: 20%;
+        text-align: center;
+        width: 60%;
+      }
+      &__box--inside {
+        padding-bottom: 10px;
+        display: flex;
+        box-sizing: border-box;
+        justify-content: center;
+      }
+    }
+  
+    h2::before {
+      content: "";
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: rgba(125, 71, 175, 0.397);
+      margin: 0 auto;
+    }
+  
+    .main {
+      max-width: 1000px;
+      margin: 60px auto 0;
+    }
+  
+    .foodie-section {
+      display: grid;
+      grid-template-areas:
+        "foodie-section__header foodie-section__header"
+        "foodie-section__text foodie-list";
+      column-gap: 3%;
+      &__header {
+        grid-area: foodie-section__header;
+      }
+      &__text {
+        grid-area: foodie-section__text;
+      }
+      &__list {
+        grid-area: foodie-list;
+      }
+    }
+  }

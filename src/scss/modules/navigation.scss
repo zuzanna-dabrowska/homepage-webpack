@@ -1,0 +1,28 @@
+.navigation {
+  &__box {
+    display: none;
+    background: #fefefe;
+    padding: 16px;
+  }
+  &--link {
+    background-color: rgba(207, 207, 207, 0.151);
+    display: block;
+    border-style: dashed;
+    border-color: black;
+    padding: 5px 12px;
+    margin: 0 0 16px;
+    text-align: center;
+  }
+  &--open {
+    display: block;
+  }
+}
+
+.hamburger {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  border: none;
+  background: none;
+}
+
