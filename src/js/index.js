@@ -96,5 +96,4 @@ const deathStar = {
       nav.classList.toggle('navigation--open');
     });
 
-
   

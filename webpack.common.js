@@ -90,7 +90,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./src/pages/dark-mode.html",
       inject: true,
-      chunks: ["index", "another"],
+      chunks: ["another"],
       filename: "dark-mode.html",
     }),
   ],
