@@ -87,5 +87,11 @@ module.exports = {
       chunks: ["index", "another"],
       filename: "travelling.html",
     }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/dark-mode.html",
+      inject: true,
+      chunks: ["index", "another"],
+      filename: "dark-mode.html",
+    }),
   ],
 };

@@ -1,0 +1,12 @@
+.dark-mode {
+  max-width: 1000px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__box {
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+  }
+}
