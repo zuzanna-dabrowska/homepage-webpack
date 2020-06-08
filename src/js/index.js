@@ -1,6 +1,9 @@
 import '../scss/main.scss';
+import moment from 'moment';
 
 /* place your code below */
+
+console.log(moment().startOf('day').fromNow());
 
 const firstName = "Zuza";
 const age = "21";
@@ -92,4 +95,6 @@ const deathStar = {
       const nav = document.querySelector('.navigation--js');
       nav.classList.toggle('navigation--open');
     });
+
+
   
