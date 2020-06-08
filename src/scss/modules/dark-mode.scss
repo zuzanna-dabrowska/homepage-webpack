@@ -1,3 +1,8 @@
+:root {
+    --color: black;
+    --background: #fefefe;
+}
+
 .dark-mode {
   max-width: 1000px;
   min-height: 100vh;
@@ -5,8 +10,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #fefefe;
-  color: black;
+  background: var(--background);
+  color: var(--color);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
   &__box {
     display: inline-block;
