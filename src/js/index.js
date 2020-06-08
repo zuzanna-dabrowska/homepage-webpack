@@ -96,4 +96,20 @@ const deathStar = {
       nav.classList.toggle('navigation--open');
     });
 
+
+    let isDark = false;
+    const switchModes = document.querySelector('.darkMode__menu--js');
+    switchModes.addEventListener('click', () => {
+      if (isDark) {
+        document.documentElement.style.setProperty('--text-color', '#fefefe');
+        document.documentElement.style.setProperty('--background', 'black'); 
+        isDark = false;
+      } else {
+          document.documentElement.style.setProperty('--text-color', 'black');
+          document.documentElement.style.setProperty('--background', '#fefefe'); 
+          isDark = true;
+      }
+    })
+    
+
   
