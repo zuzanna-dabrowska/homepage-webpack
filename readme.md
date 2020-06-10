@@ -1,8 +1,9 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover](https://psychologpisze-b41b.kxcdn.com//wp-content/uploads/2015/02/maxresdefault.jpg)
 
-# WTF Webpack Starter Kit 
+# Overthinking - a simple example of page using WTF Webpack Starter Kit 
 
-Simple toolkit for your static websites development.
+My project implements Webpack - simple html, scss and js.
+What is more you can find there grid, flexbox, menu and *hidden* dark-mode.
 
 ## How to use it?
 
@@ -15,4 +16,6 @@ Click on `Use this template` button to generate a new repository based on this s
 `npm run build` - runs build process for production
 
 `npm run publish` - runs build process and publish the page using `gh-pages` branch
+
+***Enjoy!***
 
