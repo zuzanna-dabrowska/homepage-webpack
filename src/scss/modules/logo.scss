@@ -17,8 +17,10 @@
       box-sizing: border-box;
       justify-content: center;
     }
-    &__box--picture {
+    &__pic {
+      box-sizing: border-box;
       display: block;
-      max-width: 90%;
+      width: 100%;
+      height: auto;
     }
   }
