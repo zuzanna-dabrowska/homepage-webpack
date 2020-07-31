@@ -7,6 +7,7 @@
 @import "modules/dark-mode.scss";
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500;700&display=swap');
 
 html {
   box-sizing: border-box;
@@ -28,28 +29,35 @@ body {
 }
 
 a {
-  color: rgb(129, 76, 103);
+  color: $grey;
   text-decoration: none;
+  font-family: 'Inconsolata', monospace;
 }
 
 .header {
-  background: $yellow;
+  background: $white;
   min-height: 40px;
   position: fixed;
   top: 0;
   width: 100%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-style: solid;
+  border-color: $yellow;
 }
 
 .navigation {
   &__box {
-    background: $yellow;
-  }
+    background: $white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
+}
+
 .main {
   max-width: 1000px;
   margin: 60px auto 0;
   &__header {
-    color: rgb(110, 90, 124);
     text-align: center;
     display: inline-block;
     box-sizing: border-box;
@@ -91,13 +99,15 @@ a {
 }
 
 .footer {
-  color: rgb(75, 43, 75);
+  color: $grey;
   text-align: center;
   display: inline-block;
   box-sizing: border-box;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: 'Inconsolata', monospace;
 }
 
 
