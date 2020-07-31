@@ -1,4 +1,4 @@
-![cover](https://github.com/zuzanna-dabrowska/homepage-webpack/blob/master/public/homepage.png)
+![cover](https://github.com/zuzanna-dabrowska/homepage-webpack/blob/master/src/assets/img/homepage.png)
 
 # Overthinking - a simple example of page using WTF Webpack Starter Kit 
 
