@@ -23,7 +23,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-attachment: fixed;
   background-size: cover;
-  background: #e9e8e8;
+  background: $dusty;
+  color: $grey;
 }
 
 a {
@@ -32,13 +33,18 @@ a {
 }
 
 .header {
-  background: #fefefe;
+  background: $yellow;
   min-height: 40px;
   position: fixed;
   top: 0;
   width: 100%;
 }
 
+.navigation {
+  &__box {
+    background: $yellow;
+  }
+}
 .main {
   max-width: 1000px;
   margin: 60px auto 0;
@@ -58,6 +64,8 @@ a {
   margin-right: 10%;
   text-align: justify;
   border-radius: 15px;
+  border-style: solid;
+  border-color: $yellow;
 }
 
 .about-section__picture {

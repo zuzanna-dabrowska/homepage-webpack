@@ -5,9 +5,12 @@
       box-sizing: border-box;
       margin-top: 2%;
       margin-bottom: 1.5%;
-      margin-left: 20%;
+      margin-left: 35%;
       text-align: center;
-      width: 60%;
+      width: 30%;
+      border-style: solid;
+      border-radius: 15px;
+      border-color: $yellow;
     }
     &__box--inside {
       padding-bottom: 10px;
