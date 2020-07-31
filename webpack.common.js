@@ -70,12 +70,6 @@ module.exports = {
       filename: "foodie.html",
     }),
     new HtmlWebpackPlugin({
-      template: "./src/pages/gratitude.html",
-      inject: true,
-      chunks: ["index", "another"],
-      filename: "gratitude.html",
-    }),
-    new HtmlWebpackPlugin({
       template: "./src/pages/learning.html",
       inject: true,
       chunks: ["index", "another"],
