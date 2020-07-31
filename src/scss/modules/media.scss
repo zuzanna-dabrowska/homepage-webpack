@@ -4,10 +4,8 @@
         background: #fefefe;
         box-sizing: border-box;
         display: inline-block;
-        padding: 5px 1%;
         width: 100%;
-        min-height: 30px;
-        text-align: center;
+        min-height: 20px;
       }
       &__box--links {
         display: flex;
@@ -15,12 +13,9 @@
         flex-direction: row;
         flex-wrap: wrap;
         max-width: 98%;
-        justify-content: center;
+        justify-content: left;
       }
       &--link {
-        background-color: rgba(207, 207, 207, 0.151);
-        border-style: dashed;
-        border-color: black;
         padding: 5px 12px;
         margin: 3px 5px;
       }

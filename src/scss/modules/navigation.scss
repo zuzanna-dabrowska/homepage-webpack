@@ -2,13 +2,10 @@
   &__box {
     display: none;
     background: #fefefe;
-    padding: 16px;
+    padding: 10px;
   }
   &--link {
-    background-color: rgba(207, 207, 207, 0.151);
     display: block;
-    border-style: dashed;
-    border-color: black;
     padding: 5px 12px;
     margin: 0 0 16px;
     text-align: center;
@@ -20,7 +17,7 @@
 
 .hamburger {
   position: absolute;
-  top: 20px;
+  top: 10px;
   right: 10px;
   border: none;
   background: none;
